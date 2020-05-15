@@ -1,0 +1,5 @@
+version: "3.1"
+services:
+  win10_1903:
+    build: docker_builder/win10
+    container_name: win10_1903
